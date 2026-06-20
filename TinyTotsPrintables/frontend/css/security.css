@@ -1,0 +1,48 @@
+
+/*MAIN CONTENT*/
+.main-container {
+    margin-top: 60px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.profile-info-container{
+    background-color: #ffffff;
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+.profile-info-container img{
+    margin-top: 20px;
+}
+
+.profile-info-container p{
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+#sendEmail {
+    margin-top: 50px;
+    background-color: #8900c9;
+    color: white;
+    width: 250px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+#sendEmail:hover {
+    background-color: #6b21a8; 
+
+}

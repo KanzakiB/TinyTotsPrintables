@@ -1,0 +1,116 @@
+body {
+    background-image: url('http://localhost/TinyTotsPrintables/backend/images/bg.png');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+}
+
+#imglogo {
+    margin-top: 20px;
+    height: 60px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    width: 325px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inputs-container {
+    text-align: left;
+    margin-left: 20px;
+}
+
+input[type="password"],
+input[type="text"] {
+    display: block;
+    background-color: rgb(250, 228, 250); /* Changed to match the admin login background */
+    border: none;
+    width: 240px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 7px;
+    color: #000000;
+    padding-left: 12px;
+    outline: none; 
+}
+
+form label {
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+    color: #7c008f; /* Changed to match the admin login label color */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#btnresetpass {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #53007a; /* Changed to match admin login button color */
+    width: 290px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#btnresetpass:hover {
+    background-color: #cc98fc; /* Changed to match the hover color of the admin login button */
+    color: #41006c;
+}
+
+.resetpass-container, .resetconfirmpass-container {
+    display: flex;
+    align-items: center; 
+    padding-right: 10px;  
+    background-color: rgb(250, 228, 250); /* Changed to match admin login background */
+    border-radius: 10px;
+    height: 49.5px;  
+    width: 275px;
+    border: 1px solid #873de1; /* Changed to match admin login input borders */
+    margin-bottom: 20px;
+}
+
+.password-lock-icon {
+    color: #53007a; /* Changed to match admin login icon color */
+    margin-left: 15px;
+}
+
+.pw-signup-icon,
+.cwp-signup-icon {
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.pw-signup-icon i,
+.cwp-signup-icon {
+    font-size: 18px;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+}
+
+.pw-signup-icon i:hover,
+.cwp-signup-icon i:hover {
+    color: #53007a; /* Changed to match hover color of the icons in admin login */
+}
+
+#LoginA {
+    color: #53007a; /* Changed to match admin login color */
+}

@@ -1,0 +1,244 @@
+/*MAIN CONTENT*/
+.main-container {
+    margin-top: 22px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-nav-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 600px;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+.profile-info-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 600px;
+    width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+.profilepic-con {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.profilepic-con #customername {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#profilenav {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.linebr {
+    border: none;
+    height: 0.5px;
+    background-color: #3e3e3e;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.profnav-con {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.profnav-con a {
+    display: block; 
+    text-decoration: none; 
+    color: #000000; 
+    font-weight: bold; 
+    text-align: left;
+}
+
+.nava a:hover {
+    color: #8900c9; 
+    cursor: pointer; 
+}
+
+.nava {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nava i {
+    min-width: 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    color: #8900c9;
+}
+
+.nava a {
+    text-decoration: none; 
+    color: #000000; 
+    font-weight: lighter; 
+    font-size: 16px; 
+    text-align: left; 
+    flex: 1; 
+}
+
+.active a{
+    font-weight: bold;
+    color: #8900c9;
+}
+
+.titleprofile {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.titleprofile p{
+    margin-top: -4px;
+    font-size: 15px;
+}
+
+.firstdiv {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+
+#profilephoto {
+    width: 130px;
+    border-radius: 50%;
+    height: 130px;
+}
+
+.customer-info-container {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.profilephoto-display {
+    display: flex;
+}
+ 
+#saveinfo:hover,
+#okbtn:hover {
+    background-color: #6b21a8;
+}
+
+.personal-info-container {
+    margin-top: 80px;
+    margin-left: 85px;
+}
+
+#customerinfo {
+    text-align: left;
+}
+
+.personal-info-container label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    color: #333;
+}
+
+.personal-info-container input {
+    padding: 8px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    border-color: none;
+}
+
+#customer-fname, #customer-lname, #customer-user, #customer-phone, #customer-city, #customer-postal{
+    width: 300px;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus {
+    border: 1.5px solid #8900c9; 
+    outline: none;
+    background-color: #ffffff; 
+}
+
+.rowinfo {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-cont {
+    text-align: center;
+    margin-right: 40px;
+}
+
+#saveinfo{
+    margin-top: 50px;
+}
+
+#saveinfo, #okbtn {
+    background-color: #8900c9;
+    color: white;
+    width: 200px;
+    padding: 9px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+#okbtn {
+    width: 100px;
+}
+
+
+/*modal*/
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modalbtn {
+    text-align: center;
+}
+
+#modal-message, #modal-message-update {
+    font-size: 17px;
+}
+

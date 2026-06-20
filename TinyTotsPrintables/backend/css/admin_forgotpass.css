@@ -1,0 +1,91 @@
+body {
+    background-image: url('C:\\xampp\\htdocs\\TinyTotsPrintables\\backend\\images\bg.png');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+}
+
+#imglogo {
+    margin-top: 20px;
+    height: 60px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-container {
+    background-color: #dfc5ff; /* Same light purple background */
+    width: 325px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(188, 31, 241, 0.25); /* Light purple box shadow */
+}
+
+.inputs-container {
+    text-align: left;
+    margin-left: 20px;
+}
+
+input[type="email"] {
+    display: block;
+    background-color: rgb(250, 228, 250); /* Matching the light pinkish background */
+    border: none;
+    width: 270px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 7px;
+    color: #480067; /* Dark purple text color */
+    padding-left: 12px;
+    outline: none; 
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    color: #7c008f; /* Purple label color */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.email-container {
+    display: flex;
+    align-items: center; 
+    padding-right: 10px;  
+    background-color: rgb(250, 228, 250); /* Matching background color */
+    border-radius: 10px;
+    width: 275px;
+    height: 49.5px;  
+    border: 1px solid #873de1; /* Matching border color */
+}
+
+.envelope-icon {
+    color: #53007a; /* Dark purple icon color */
+    margin-left: 15px;
+}
+
+#btnbacklogin, #btntootp {
+    cursor: pointer;
+    background-color: #53007a; /* Dark purple background color for buttons */
+    width: 140px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#btnbacklogin:hover, #btntootp:hover {
+    background-color: #cc98fc; /* Light purple hover color */
+    color: #41006c; /* Darker purple text on hover */
+}

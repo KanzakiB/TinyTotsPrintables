@@ -1,0 +1,155 @@
+body {
+    background-image: url('http://localhost/TinyTotsPrintables/backend/images/bg.png');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+}
+
+#imglogo {
+    margin-top: 20px;
+    height: 70px;
+    align-items: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    width: 325px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inputs-container {
+    text-align: left;
+    margin-left: 20px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    display: block;
+    background-color:  white;
+    border: none;
+    width: 240px;
+    height: 35px;
+    font-size: 16px;
+    padding: 7px;
+    color: #000000;
+    padding-left: 12px;
+    outline: none; 
+}
+
+form label {
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.btn-admin-signup {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #a825bf;
+    width: 290px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-admin-signup:hover {
+    background-color: #a825bf; 
+    color: #FFFFFF;
+}
+
+#ToLogin {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*EMAIL INPUT*/
+.email-container{
+    display: flex;
+    align-items: center; 
+    padding-right: 10px;  
+    background-color: white;
+    border-radius: 10px;
+    height: 49.5px;  
+    width: 275px;
+    border: 1px solid #a825bf;
+    margin-bottom: 20px;
+}
+
+.email-envelope-icon, .password-lock-icon {
+    color: #a825bf;
+    margin-left: 15px;
+}
+
+/*PASSWORD INPUT*/
+.password-container, .confirmpassword-container {
+    display: flex;
+    align-items: center; 
+    padding-right: 10px;  
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 49.5px;  
+    width: 275px;
+    border: 1px solid #a825bf;
+    margin-bottom: 20px;
+}
+
+#requirements {
+    display: none;
+    text-align: left;
+}
+
+
+.signup-pw-container,
+.signup-confirm-pw {
+    display: flex;
+    align-items: center; 
+    width: 275px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-right: 10px;  
+    height: 49.5px;  
+}
+
+.pw-signup-icon,
+.cwp-signup-icon {
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.pw-signup-icon i,
+.cwp-signup-icon {
+    font-size: 18px;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+}
+
+.pw-signup-icon i:hover,
+.cwp-signup-icon i:hover {
+    color: #a825bf;
+}
+
+#loginA {
+    color: #a825bf;
+}

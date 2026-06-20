@@ -1,0 +1,155 @@
+body {
+    background-image: url('http://localhost/TinyTotsPrintables/backend/images/bg.png');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+}
+
+#imglogo {
+    margin-top: 20px;
+    height: 70px;
+    align-items: center;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.form-container {
+    background-color: #FFFFFF;
+    width: 325px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+
+}
+
+.inputs-container {
+    text-align: left;
+    margin-left: 20px;
+    align-items: center;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    display: block;
+    background-color: rgb(250, 228, 250);
+    border: none;
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 7px;
+    color: #000000;
+    padding-left: 12px;
+    outline: none; 
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    color: #a809c1;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#Forgot_pw {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #a809c1;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-admin-login {
+    cursor: pointer;
+    background-color: #a809c1;
+    width: 290px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-admin-login:hover {
+    background-color: #cc98fc; 
+    color: rgb(143, 0, 183);
+}
+
+#adminSignup {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signupA {
+    color: #a809c1;
+}
+
+/*password style*/
+.password-container {
+    display: flex;
+    align-items: center; 
+    background-color: rgb(250, 228, 250); /* Same as email container */
+    border-radius: 10px;
+    padding-right: 10px;  
+    height: 49.5px;  
+    width: 275px;
+    border: 1px solid #a809c1; /* Same border color as email container */
+}
+
+.password-toggle-icon {
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.lock-icon {
+    color: #a809c1;
+    margin-left: 15px;
+}
+
+.password-toggle-icon i {
+    font-size: 18px;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+}
+
+.password-toggle-icon i:hover {
+    color: #a809c1;
+}
+
+/*email style*/
+.email-container {
+    display: flex;
+    align-items: center; 
+    padding-right: 10px;  
+    background-color: rgb(250, 228, 250); /* Same as password container */
+    border-radius: 10px;
+    width: 275px;
+    height: 49.5px;  
+    border: 1px solid #a809c1; /* Same border color as password container */
+}
+
+.envelope-icon {
+    color: #a809c1;
+    margin-left: 15px;
+}
+
+#error-message {
+    color: #a809c1;
+}

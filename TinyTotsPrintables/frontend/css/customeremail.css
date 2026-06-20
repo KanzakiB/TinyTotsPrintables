@@ -1,0 +1,234 @@
+
+/*MAIN CONTENT*/
+.main-container {
+    margin-top: 22px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-nav-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 600px;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+.profile-info-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 600px;
+    width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+.profilepic-con {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.profilepic-con #customername {
+    margin-top: 15px;
+    font-size: 16px
+}
+
+#profilenav {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.linebr {
+    border: none;
+    height: 0.5px;
+    background-color: #3e3e3e;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.profnav-con {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.profnav-con a {
+    display: block; 
+    text-decoration: none; 
+    color: #000000; 
+    font-weight: bold; 
+    text-align: left;
+}
+
+.nava a:hover {
+    color: #8900c9; 
+    cursor: pointer; 
+}
+
+.nava {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nava i {
+    min-width: 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    color: #8900c9;
+}
+
+.nava a {
+    text-decoration: none; 
+    color: #000000; 
+    font-weight: lighter; 
+    font-size: 16px; 
+    text-align: left; 
+    flex: 1; 
+}
+
+.active a{
+    font-weight: bold;
+    color: #8900c9;
+}
+
+.titleprofile {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.titleprofile p{
+    margin-top: -4px;
+    font-size: 15px;
+}
+
+.change-container {
+    background-color: #ffffff;
+    margin-top: 120px;
+}
+
+
+input[type="email"]{
+    border: 1px solid #8900c9 !important;
+    width: 400px !important;;
+    height: 45px !important;;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    padding: 15px !important;;
+    color: #000000 !important;;
+}
+
+
+form label {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#newEmail {
+    padding: 8px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    width: 400px;
+    border-color: none;
+}
+
+#saveNewEmail {
+    background-color: #8900c9;
+    color: white;
+    width: 150px;
+    padding: 9px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+#newEmail:focus {
+    border: 1.5px solid #6b21a8; 
+    outline: none;
+    background-color: #ffffff; 
+}
+
+.error-message {
+    color: #ff0004;
+    margin-top: -10px;
+}
+
+.personal-info-container {
+    text-align: center;
+}
+
+/* Modal */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 250px;
+    text-align: center;
+}
+
+
+#success-modal {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+}
+
+#success-modal .modal-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#success-modal #modal-ok-button {
+    background: #8900c9;
+    color: #ffffff;
+    width: 80px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modalbtn{
+    text-align: center;
+}
+
+#success-modal #modal-ok-button:hover {
+    background: #6d00a6;
+}

@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+
+
+h3 {
+font-size: 28px;
+font-weight: bold;
+color: #333;
+margin-bottom: 30px;
+}
+
+h4 {
+font-size: 22px;
+color: #8900c9;
+margin-bottom: 15px;
+}
+
+.customer-details p,
+.checkout-item p {
+font-size: 16px;
+color: #555;
+line-height: 1.6;
+}
+
+.checkout-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+padding: 15px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+border: 1px solid #cacaca;
+}
+
+.checkout-item img {
+width: 120px;
+height: 120px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.checkout-item div {
+flex: 1;
+margin-left: 15px;
+}
+
+.total-price {
+font-size: 25px;
+font-weight: bold;
+color: #8900c9;
+}
+
+.form-select,
+.form-control {
+border-radius: 8px;
+border: 1px solid #ddd;
+padding: 10px;
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.form-select:focus,
+.form-control:focus {
+border-color: #8900c9;
+box-shadow: 0 0 5px rgba(137, 0, 201, 0.5);
+}
+
+.btn-custom {
+background-color: #8900c9;
+color: white;
+border: none;
+padding: 12px 20px;
+font-size: 18px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+background-color: #660093;
+}
+
+#gcash_field,
+#email_field {
+display: none;
+}
+
+#gcash_field input,
+#email_field input {
+padding: 10px;
+font-size: 16px;
+border-radius: 8px;
+border: 1px solid #ddd;
+margin-top: 10px;
+width: 100%;
+}
+
+#gcash_field input:focus,
+#email_field input:focus {
+border-color: #8900c9;
+box-shadow: 0 0 5px rgba(137, 0, 201, 0.5);
+}
+
+.modal-content {
+border-radius: 8px;
+padding: 20px;
+font-family: 'Arial', sans-serif;
+}
+
+.modal-header {
+border-bottom: 2px solid #8900c9;
+}
+
+.modal-body {
+font-size: 16px;
+line-height: 1.6;
+}
+
+.modal-footer button {
+background-color: #8900c9;
+color: white;
+border-radius: 8px;
+padding: 10px 20px;
+font-size: 16px;
+}
+
+.modal-footer button:hover {
+background-color: #660093;
+}
+
+body {
+background-image: url('images/background.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.navbar-custom {
+background-color: #ffffff;
+padding: 10px;
+border-bottom: 5px solid #8900c9;
+height: 80px;
+}
+
+.navbar-custom .navbar-brand {
+color: black;
+font-weight: bold;
+}
+
+.navbar-custom .nav-link {
+color: black !important;
+font-weight: bold;
+}
+
+.navbar-custom .nav-link:hover {
+color: black !important;
+text-decoration: none;
+}
+
+.navbar-custom .nav-icons i {
+font-size: 1.5rem;
+color: black;
+margin-left: 15px;
+}
+
+
+h3 {
+font-size: 28px;
+font-weight: bold;
+color: #333;
+margin-bottom: 30px;
+}
+
+h4 {
+font-size: 22px;
+color: #8900c9;
+margin-bottom: 15px;
+}
+
+.customer-details p,
+.checkout-item p {
+font-size: 16px;
+color: #555;
+line-height: 1.6;
+}
+
+.checkout-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+padding: 15px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-item img {
+width: 120px;
+height: 120px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.checkout-item div {
+flex: 1;
+margin-left: 15px;
+}
+
+.total-price {
+font-size: 25px;
+font-weight: bold;
+color: #8900c9;
+}
+
+.form-select,
+.form-control {
+border-radius: 8px;
+border: 1px solid #ddd;
+padding: 10px;
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.form-select:focus,
+.form-control:focus {
+border-color: #8900c9;
+box-shadow: 0 0 5px rgba(137, 0, 201, 0.5);
+}
+
+.btn-custom {
+background-color: #8900c9;
+color: white;
+border: none;
+padding: 12px 20px;
+font-size: 18px;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+background-color: #660093;
+}
+
+#gcash_field,
+#email_field {
+display: none;
+}
+
+#gcash_field input,
+#email_field input {
+padding: 10px;
+font-size: 16px;
+border-radius: 8px;
+border: 1px solid #ddd;
+margin-top: 10px;
+width: 100%;
+}
+
+#gcash_field input:focus,
+#email_field input:focus {
+border-color: #8900c9;
+box-shadow: 0 0 5px rgba(137, 0, 201, 0.5);
+}
+
+.modal-content {
+border-radius: 8px;
+padding: 20px;
+font-family: 'Arial', sans-serif;
+}
+
+.modal-header {
+border-bottom: 2px solid #8900c9;
+}
+
+.modal-body {
+font-size: 16px;
+line-height: 1.6;
+}
+
+.modal-footer button {
+background-color: #8900c9;
+color: white;
+border-radius: 8px;
+padding: 10px 20px;
+font-size: 16px;
+}
+
+.modal-footer button:hover {
+background-color: #660093;
+}
+
+.checkout-container {
+    background-color: #ffffff;
+    width: 1100px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.container {
+    margin-left: 200px;
+
+}

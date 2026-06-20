@@ -1,0 +1,272 @@
+
+/*MAIN CONTENT*/
+.main-container {
+    margin-top: 22px;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-nav-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 600px;
+    width: 220px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+.profile-info-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 600px;
+    width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+.profilepic-con {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.profilepic-con #customername {
+    font-size: 16px
+}
+
+#profilenav {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.linebr {
+    border: none;
+    height: 0.5px;
+    background-color: #3e3e3e;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.profnav-con {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.profnav-con a {
+    display: block; 
+    text-decoration: none; 
+    color: #000000; 
+    font-weight: bold; 
+    text-align: left;
+}
+
+.nava a:hover {
+    color: #8900c9; 
+    cursor: pointer; 
+}
+
+.nava {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nava i {
+    min-width: 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    color: #8900c9;
+}
+
+.nava a {
+    text-decoration: none; 
+    color: #000000; 
+    font-weight: lighter; 
+    font-size: 16px; 
+    text-align: left; 
+    flex: 1; 
+}
+
+.active a{
+    font-weight: bold;
+    color: #8900c9;
+}
+
+.titleprofile {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.titleprofile p{
+    margin-top: -4px;
+    font-size: 15px;
+}
+
+.pass-change-container {
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-left: 70px;
+    text-align: left;
+}
+
+.current-container, .new-container, .confirm-container {
+    display: flex;
+    align-items: center; 
+    border-radius: 10px;
+    padding-right: 10px;  
+    height: 49.5px;  
+    width: 285px;
+    border: 1px solid #8900c9;
+}
+
+form label {
+    margin-top: 20px;
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.current-container input, .new-container input, .confirm-container input{
+    display: block;
+    border: none;
+    width: 240px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 7px;
+    color: #000000;
+    padding-left: 12px;
+    outline: none; 
+}
+
+
+#saveNewPass {
+    cursor: pointer;
+    background-color: #8900c9;
+    width: 285px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#saveNewPass:hover {
+    background-color: #6b21a8; 
+    color: #FFFFFF;
+}
+
+#newPasswordContainer {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#requirements, #error-message1, #error-message2, #error-message3 {
+    color: #ff0004;
+}
+
+.current-icon, .new-icon, .cfw-icon {
+    color: #8900c9;
+    margin-left: 15px;
+}
+
+
+.current-icon,
+.new-icon, 
+.cfw-icon{
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.current-icon i,
+.new-icon i, 
+.cfw-icon i{
+    font-size: 18px;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+}
+
+.current-icon i:hover,
+.new-icon i:hover, 
+.cfw-icon i:hover {
+    color: #8900c9;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+/* Modal  */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+}
+
+
+
+#success-modal {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+}
+
+#success-modal .modal-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#success-modal #modal-ok-button {
+    background: #8900c9;
+    color: #ffffff;
+    width: 80px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modalbtn{
+    text-align: center;
+}
+
+#success-modal #modal-ok-button:hover {
+    background: #6d00a6;
+}
