@@ -36,12 +36,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_verification_ema
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'aera.montefalco33@gmail.com';
-    $mail->Password = 'cmcw pnwe fqxx meih'; 
+    $mail->Username = ''; //email to use
+    $mail->Password = ''; // app password
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
-    $mail->setFrom('aera.montefalco33@gmail.com', 'TinyTots Printables');
+    $mail->setFrom('email@gmail.com', 'TinyTots Printables');
     $mail->addAddress($email); 
 
     $mail->isHTML(true);
