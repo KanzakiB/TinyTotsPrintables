@@ -14,13 +14,13 @@
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';  // Wag na galawin
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'aro_katrinaanne@plpasig.edu.ph';  // email to use
-        $mail->Password   = 'cmcw pnwe fqxx meih';    // App password
+        $mail->Username   = '';  // email to use
+        $mail->Password   = '';    // App password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
         //Recipients
-        $mail->setFrom('aro_katrinaanne@plpasig.edu.ph', 'ADMIN THE HAPPY TAILS ');
+        $mail->setFrom('email@gmail.com', 'ADMIN THE HAPPY TAILS ');
         $mail->addAddress($email);    // sino makaka receive $email in the database used
 
         // Content
